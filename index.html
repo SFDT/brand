@@ -357,112 +357,20 @@
                   <div class="colors-grid-wrapper">
                     <div class="title">Primary colors</div>
                     <div class="row mar0">
-                      <?php
-                        $primaryColors = array(
-                          0 => array(
-                            'name' => 'SFDT Blue',
-                            'hex' => '#0077DA',
-                            'text' => '<strong>Hex</strong>  #0077DA<br /><strong>RGB</strong> 0/R  119/B  218/B<br /><strong>CMYK</strong>  100/C  30/M  0/Y 0/K'
-                          ),
-                          1 => array(
-                            'name' => 'SFDT Navy',
-                            'hex' => '#132F50',
-                            'text' => '<strong>Hex</strong>  #132F50<br /><strong>RGB</strong> 19/R  47/B  80/B<br /><strong>CMYK</strong>  99/C  83/M  42/Y 38/K'
-                          ),
-                          2 => array(
-                            'name' => 'SFDT Teal',
-                            'hex' => '#00B7A5',
-                            'text' => '<strong>Hex</strong>  #00B7A5<br /><strong>Hex for web buttons</strong> #008174<br />(Section 508 compliant)<br /><strong>RGB</strong> 0/R  183/B  165/B<br /><strong>CMYK</strong> 75/C  1/M  45/Y 0/K'
-                          )
-                        );
-
-                        foreach($primaryColors as $primaryColor){
-                          echo '<div class="grid-col col-sm-4 col-xs-12">';
-                            echo '<div class="color-grid">';
-                              echo '<div class="color-fill" style="background-color: '.$primaryColor['hex'].';"></div>';
-                              echo '<div class="color-name">'.$primaryColor['name'].'</div>';
-                              echo '<div class="color-details">'.$primaryColor['text'].'</div>';
-                            echo '</div>';
-                          echo '</div>';
-                        }
-                      ?>
-                    </div>
+                      <div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #0077DA;"></div><div class="color-name">SFDT Blue</div><div class="color-details"><strong>Hex</strong>  #0077DA<br><strong>RGB</strong> 0/R  119/B  218/B<br><strong>CMYK</strong>  100/C  30/M  0/Y 0/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #132F50;"></div><div class="color-name">SFDT Navy</div><div class="color-details"><strong>Hex</strong>  #132F50<br><strong>RGB</strong> 19/R  47/B  80/B<br><strong>CMYK</strong>  99/C  83/M  42/Y 38/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #00B7A5;"></div><div class="color-name">SFDT Teal</div><div class="color-details"><strong>Hex</strong>  #00B7A5<br><strong>Hex for web buttons</strong> #008174<br>(Section 508 compliant)<br><strong>RGB</strong> 0/R  183/B  165/B<br><strong>CMYK</strong> 75/C  1/M  45/Y 0/K</div></div></div>                    </div>
                   </div>
 
 
                   <div class="colors-grid-wrapper">
                     <div class="title">Secondary colors</div>
                     <div class="row mar0">
-                      <?php
-                        $secondaryColors = array(
-                          0 => array(
-                            'name' => 'SFDT Dark Blue',
-                            'hex' => '#19569C',
-                            'text' => '<strong>Hex</strong> #19569C<br /><strong>RGB</strong> 25/R  86/B  156/B<br /><strong>CMYK</strong> 95/C  73/M  8/Y 1/K'
-                          ),
-                          1 => array(
-                            'name' => 'SFDT Gray-Blue',
-                            'hex' => '#323A45',
-                            'text' => '<strong>Hex</strong> #323A45<br /><strong>RGB</strong> 50/R  58/B  69/B<br /><strong>CMYK</strong>  78/C  67/M  52/Y 46/K'
-                          )
-                        );
-
-                        foreach($secondaryColors as $secondaryColor){
-                          echo '<div class="grid-col col-sm-4 col-xs-12">';
-                          echo '<div class="color-grid">';
-                            echo '<div class="color-fill" style="background-color: '.$secondaryColor['hex'].';"></div>';
-                            echo '<div class="color-name">'.$secondaryColor['name'].'</div>';
-                            echo '<div class="color-details">'.$secondaryColor['text'].'</div>';
-                          echo '</div>';
-                          echo '</div>';
-                        }
-                      ?>
-                    </div>
+                      <div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #19569C;"></div><div class="color-name">SFDT Dark Blue</div><div class="color-details"><strong>Hex</strong> #19569C<br><strong>RGB</strong> 25/R  86/B  156/B<br><strong>CMYK</strong> 95/C  73/M  8/Y 1/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #323A45;"></div><div class="color-name">SFDT Gray-Blue</div><div class="color-details"><strong>Hex</strong> #323A45<br><strong>RGB</strong> 50/R  58/B  69/B<br><strong>CMYK</strong>  78/C  67/M  52/Y 46/K</div></div></div>                    </div>
                   </div>
 
                   <div class="colors-grid-wrapper tertiary-colors">
                     <div class="title">Tertiary colors (for icons only, not Section 508 compliant when used as text or background with white text)</div>
                     <div class="row mar0">
-                      <?php
-                        $tertiaryColors = array(
-                          0 => array(
-                            'name' => 'Connectivity',
-                            'hex' => '#E98522',
-                            'text' => '<strong>Hex</strong> #19569C<br /><strong>RGB</strong> 233/R  133/B  34/B<br /><strong>CMYK</strong> 6/C  57/M  100/Y 0/K'
-                          ),
-                          1 => array(
-                            'name' => 'Digital Service',
-                            'hex' => '#72BE49',
-                            'text' => '<strong>Hex</strong> #72BE49<br /><strong>RGB</strong> 114/R  190/B  73/B<br /><strong>CMYK</strong> 59/C  0/M  97/Y 0/K'
-                          ),
-                          2 => array(
-                            'name' => 'Technology-as-a-Service',
-                            'hex' => '#56A9F6',
-                            'text' => '<strong>Hex</strong> #56A9F6<br /><strong>RGB</strong> 86/R  169/B  246/B<br /><strong>CMYK</strong>  58/C  24/M  0/Y 0/K'
-                          ),
-                          3 => array(
-                            'name' => 'Tech Talent',
-                            'hex' => '#E7C830',
-                            'text' => '<strong>Hex</strong> #E7C830<br /><strong>RGB</strong> 231/R  200/B  48/B<br /><strong>CMYK</strong>  11/C  17/M  95/Y 0/K'
-                          ),
-                          4 => array(
-                            'name' => 'Cybersecurity',
-                            'hex' => '#E02142',
-                            'text' => '<strong>Hex</strong> #E02142<br /><strong>RGB</strong> 224/R  33/B  66/B<br /><strong>CMYK</strong>  6/C  99/M  74/Y 0/K'
-                          )
-                        );
-
-                        foreach($tertiaryColors as $tertiaryColor){
-                          echo '<div class="grid-col col-sm-4 col-xs-12">';
-                          echo '<div class="color-grid">';
-                            echo '<div class="color-fill" style="background-color: '.$tertiaryColor['hex'].';"></div>';
-                            echo '<div class="color-name">'.$tertiaryColor['name'].'</div>';
-                            echo '<div class="color-details">'.$tertiaryColor['text'].'</div>';
-                          echo '</div>';
-                          echo '</div>';
-                        }
-                      ?>
-                    </div>
+                      <div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #E98522;"></div><div class="color-name">Connectivity</div><div class="color-details"><strong>Hex</strong> #19569C<br><strong>RGB</strong> 233/R  133/B  34/B<br><strong>CMYK</strong> 6/C  57/M  100/Y 0/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #72BE49;"></div><div class="color-name">Digital Service</div><div class="color-details"><strong>Hex</strong> #72BE49<br><strong>RGB</strong> 114/R  190/B  73/B<br><strong>CMYK</strong> 59/C  0/M  97/Y 0/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #56A9F6;"></div><div class="color-name">Technology-as-a-Service</div><div class="color-details"><strong>Hex</strong> #56A9F6<br><strong>RGB</strong> 86/R  169/B  246/B<br><strong>CMYK</strong>  58/C  24/M  0/Y 0/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #E7C830;"></div><div class="color-name">Tech Talent</div><div class="color-details"><strong>Hex</strong> #E7C830<br><strong>RGB</strong> 231/R  200/B  48/B<br><strong>CMYK</strong>  11/C  17/M  95/Y 0/K</div></div></div><div class="grid-col col-sm-4 col-xs-12"><div class="color-grid"><div class="color-fill" style="background-color: #E02142;"></div><div class="color-name">Cybersecurity</div><div class="color-details"><strong>Hex</strong> #E02142<br><strong>RGB</strong> 224/R  33/B  66/B<br><strong>CMYK</strong>  6/C  99/M  74/Y 0/K</div></div></div>                    </div>
                   </div>
 
                 </div><!-- .section-details -->
