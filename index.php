@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="IE=9" http-equiv="X-UA-Compatible" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+  
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="js/jquery1.12.4.js" type="text/javascript"></script>
+  <script src="bootstrap-3.3.7/js/affix.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="page" class="site">
+  <header id="site-header" role="header">
+    <div class="container clearfix">
+      <div class="site-title">
+        <a href="#" rel="home">Brand Guidelines</a>
+      </div>
+    </div>
+  </header>
+  
+  <main id="main" class="site-main" role="main">
+    <div class="page-banner">
+      <div class="container">
+        <div class="banner-text">
+          <div class="title">Brand Guidelines</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="content-wrapper clearfix" data-spy="scroll" data-target=".scrollspy">
+      
+      <!-- Secondary Section -->
+      <div id="secondary" class="col-30 eq-col align-left">
+        <div id="sidebar">
+          <div class="navigation-wrapper scrollspy">
+            <div class="navigation" data-spy="affix">
+              <ul class="main-nav">
+                <li><a href="#logos">Logos</a></li>
+                <li><a href="#logo-clear-space">Logo clear space</a></li>
+                <li><a href="#preferred-color-options">Preferred color options</a></li>
+                <li><a href="#preferred-onecolor-options">Preferred one-color options</a></li>
+                <li><a href="#improper-logo-usage">Improper logo usage</a></li>
+                <li><a href="#color-palette">Color palette</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#brand-photography-treatment">Brand photography treatment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Primary Section -->
+      <div id="primary" class="col-70 eq-col align-right">
+        <div id="content">
+          
+          <!-- Section - Intro -->
+          <section id="introduction" class="section">
+            <div class="intro">
+              <p>We&rsquo;ve developed these guidelines to help build the San Francisco Department of Technology brand. You&rsquo;ll find instructions for logo use, clear space requirements, color palette, typography, and photography treatment.</p><p>Please follow these standards to ensure that the Department of Technology brand is well-represented across media.</p>
+            </div>
+          </section>
+          
+          <!-- Guidelines - Large Screens -->
+          <div class="guidelines-wrapper">
+            <!-- Section - Logos -->
+            <section id="logos" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Logos <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Logos</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>Our logo includes a symbol and a logotype. These elements are exactly positioned and proportionally fine-tuned. Never use the logotype &ldquo;San Francisco Department of Technology&rdquo; without the symbol.</p><p>Here are two configurations&mdash;vertical and horizontal. Approved logo artwork is available via e-mail request from <strong><a href="mailto:tech.feedback@sfgov.org">tech.feedback@sfgov.org</a></strong></p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="row mar0 xs-full">
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-vertical-explanation@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Vertical</div>
+                    </div>
+
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-explanation@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Horizontal</div>
+                    </div>
+                  </div>
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>
+
+
+            <!-- Section - Logo Clear Space -->
+            <section id="logo-clear-space" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Logo clear space <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Logo clear space</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>Regardless of use, the logo requires a minimum amount of space. This space or margin is based on one half of the large hexagon in the symbol. We call this a SFDT unit. All margins on both the vertical and horizontal logos are equal to one SFDT unit. Maintain the margin between the logo and the edge of a page, visual element, or color field. In general, don&rsquo;t position anything within the clear space, not typography, not design elements, and definitely not other logos.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="row mar0 xs-full">
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-vertical-clearspace@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Vertical</div>
+                    </div>
+
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-clearspace@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Horizontal</div>
+                    </div>
+                  </div>
+                </div><!--.section-details -->
+              </div><!--.section-content -->
+            </section>
+
+            <!-- Section - Preferred color options -->
+            <section id="preferred-color-options" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Preferred color options <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Preferred color options</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>Here are the three preferred color options for logo reproduction in all types of media. Don&rsquo;t use these color options with any other background color. Note that the city hall illustration always assumes the color of the background.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+
+                <div class="section-details">
+                  <div class="row mar0">
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-positive-on-white@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Positive on white</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-positive-on-gray@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Positive on light gray</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-reverse-on-navy@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Reverse on SFDT Navy</div>
+                    </div>
+                  </div>
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>
+
+            <!-- Section - Preferred one-color options -->
+            <section id="preferred-onecolor-options" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Preferred one-color options <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Preferred one-color options</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>When you&rsquo;re constrained to printing with a single color or you want the logo to stand out on a color background, use the one-color option.</p>
+                      <p>For reverse applications, you can use either black or SFDT Blue as a background with the logo in white, ensuring that there is enough contrast between the two colors.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+
+                <div class="section-details">
+                  <div class="row mar0 mar-b35">
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-black-on-white@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Black on white</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        
+                        <img src="images/new/d-t-logo-horizontal-black-on-gray@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Black on light gray</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-white-on-black@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">White on black</div>
+                    </div>
+                  </div>
+
+                  <div class="row mar0">
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-blue-on-white@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Blue on white</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-blue-on-gray@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Black on light gray</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/d-t-logo-horizontal-white-on-blue@3x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">White on black</div>
+                    </div>
+                  </div>
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>
+
+
+            <!-- Section - Improper logo usage -->
+            <section id="improper-logo-usage" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Improper logo usage <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Improper logo usage</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>We&rsquo;ve tried to anticipate all the essential needs for logo usage: color variations, size and scale. That said, we would like you to abide by a few simple rules to help you use the San Francisco Department of Technology logo correctly every time.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="row mar0 mar-b35">
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-background@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never set on a complex background</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-colors@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never alter colors or opacity</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-reposition@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never reposition elements</div>
+                    </div>
+                  </div>
+
+                  <div class="row mar0">
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-effects@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never add typographic effects</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-angle@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never on an angle</div>
+                    </div>
+
+                    <div class="grid-col col-sm-4 col-xs-12">
+                      <div class="thumb">
+                        <img src="images/new/improper-logo-expand@2x.png" alt="" class="img-responsive" />
+                      </div>
+                      <div class="caption">Never condense or extend</div>
+                    </div>
+                  </div>
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>  
+
+            <!-- Section - Color palette -->
+            <section id="color-palette" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Color palette <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Color palette</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>We use SFDT Blue, SFDT Navy, and SFDT Teal as our primary colors, with SFDT Dark Blue and SFDT Gray-Blue as secondary colors. We have assigned specific colors to our initiatives&mdash;Connectivity, Digital Service, Technology-as-a-Service, Tech Talent, and Cybersecurity.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="colors-grid-wrapper">
+                    <div class="title">Primary colors</div>
+                    <div class="row mar0">
+                      <?php
+                        $primaryColors = array(
+                          0 => array(
+                            'name' => 'SFDT Blue',
+                            'hex' => '#0077DA',
+                            'text' => '<strong>Hex</strong>  #0077DA<br /><strong>RGB</strong> 0/R  119/B  218/B<br /><strong>CMYK</strong>  100/C  30/M  0/Y 0/K'
+                          ),
+                          1 => array(
+                            'name' => 'SFDT Navy',
+                            'hex' => '#132F50',
+                            'text' => '<strong>Hex</strong>  #132F50<br /><strong>RGB</strong> 19/R  47/B  80/B<br /><strong>CMYK</strong>  99/C  83/M  42/Y 38/K'
+                          ),
+                          2 => array(
+                            'name' => 'SFDT Teal',
+                            'hex' => '#00B7A5',
+                            'text' => '<strong>Hex</strong>  #00B7A5<br /><strong>Hex for web buttons</strong> #008174<br />(Section 508 compliant)<br /><strong>RGB</strong> 0/R  183/B  165/B<br /><strong>CMYK</strong> 75/C  1/M  45/Y 0/K'
+                          )
+                        );
+
+                        foreach($primaryColors as $primaryColor){
+                          echo '<div class="grid-col col-sm-4 col-xs-12">';
+                            echo '<div class="color-grid">';
+                              echo '<div class="color-fill" style="background-color: '.$primaryColor['hex'].';"></div>';
+                              echo '<div class="color-name">'.$primaryColor['name'].'</div>';
+                              echo '<div class="color-details">'.$primaryColor['text'].'</div>';
+                            echo '</div>';
+                          echo '</div>';
+                        }
+                      ?>
+                    </div>
+                  </div>
+
+
+                  <div class="colors-grid-wrapper">
+                    <div class="title">Secondary colors</div>
+                    <div class="row mar0">
+                      <?php
+                        $secondaryColors = array(
+                          0 => array(
+                            'name' => 'SFDT Dark Blue',
+                            'hex' => '#19569C',
+                            'text' => '<strong>Hex</strong> #19569C<br /><strong>RGB</strong> 25/R  86/B  156/B<br /><strong>CMYK</strong> 95/C  73/M  8/Y 1/K'
+                          ),
+                          1 => array(
+                            'name' => 'SFDT Gray-Blue',
+                            'hex' => '#323A45',
+                            'text' => '<strong>Hex</strong> #323A45<br /><strong>RGB</strong> 50/R  58/B  69/B<br /><strong>CMYK</strong>  78/C  67/M  52/Y 46/K'
+                          )
+                        );
+
+                        foreach($secondaryColors as $secondaryColor){
+                          echo '<div class="grid-col col-sm-4 col-xs-12">';
+                          echo '<div class="color-grid">';
+                            echo '<div class="color-fill" style="background-color: '.$secondaryColor['hex'].';"></div>';
+                            echo '<div class="color-name">'.$secondaryColor['name'].'</div>';
+                            echo '<div class="color-details">'.$secondaryColor['text'].'</div>';
+                          echo '</div>';
+                          echo '</div>';
+                        }
+                      ?>
+                    </div>
+                  </div>
+
+                  <div class="colors-grid-wrapper tertiary-colors">
+                    <div class="title">Tertiary colors (for icons only, not Section 508 compliant when used as text or background with white text)</div>
+                    <div class="row mar0">
+                      <?php
+                        $tertiaryColors = array(
+                          0 => array(
+                            'name' => 'Connectivity',
+                            'hex' => '#E98522',
+                            'text' => '<strong>Hex</strong> #19569C<br /><strong>RGB</strong> 233/R  133/B  34/B<br /><strong>CMYK</strong> 6/C  57/M  100/Y 0/K'
+                          ),
+                          1 => array(
+                            'name' => 'Digital Service',
+                            'hex' => '#72BE49',
+                            'text' => '<strong>Hex</strong> #72BE49<br /><strong>RGB</strong> 114/R  190/B  73/B<br /><strong>CMYK</strong> 59/C  0/M  97/Y 0/K'
+                          ),
+                          2 => array(
+                            'name' => 'Technology-as-a-Service',
+                            'hex' => '#56A9F6',
+                            'text' => '<strong>Hex</strong> #56A9F6<br /><strong>RGB</strong> 86/R  169/B  246/B<br /><strong>CMYK</strong>  58/C  24/M  0/Y 0/K'
+                          ),
+                          3 => array(
+                            'name' => 'Tech Talent',
+                            'hex' => '#E7C830',
+                            'text' => '<strong>Hex</strong> #E7C830<br /><strong>RGB</strong> 231/R  200/B  48/B<br /><strong>CMYK</strong>  11/C  17/M  95/Y 0/K'
+                          ),
+                          4 => array(
+                            'name' => 'Cybersecurity',
+                            'hex' => '#E02142',
+                            'text' => '<strong>Hex</strong> #E02142<br /><strong>RGB</strong> 224/R  33/B  66/B<br /><strong>CMYK</strong>  6/C  99/M  74/Y 0/K'
+                          )
+                        );
+
+                        foreach($tertiaryColors as $tertiaryColor){
+                          echo '<div class="grid-col col-sm-4 col-xs-12">';
+                          echo '<div class="color-grid">';
+                            echo '<div class="color-fill" style="background-color: '.$tertiaryColor['hex'].';"></div>';
+                            echo '<div class="color-name">'.$tertiaryColor['name'].'</div>';
+                            echo '<div class="color-details">'.$tertiaryColor['text'].'</div>';
+                          echo '</div>';
+                          echo '</div>';
+                        }
+                      ?>
+                    </div>
+                  </div>
+
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>  
+
+
+            <!-- Section - Typography -->
+            <section id="typography" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Typography <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Typography</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>We use Open Sans as our primary font for the web&mdash;Open Sans Semibold for large headlines, and Open Sans Regular for small headlines and body copy.</p><p>For MS Word and  Powerpoint, when Open Sans is not available, Calibri is the preferred typeface. It&rsquo;s a system font available on most computers.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="row mar0 xs-full">
+                    <div class="col-xs-12 col-font">
+                      <div class="font-display">
+                        <img src="images/new/typography-open-sans@2x.png" alt="" class="img-responsive hidden-sm hidden-xs" />
+                        <img src="images/new/mobile/typeface-open-sans-mobile@2x.png" alt="" class="img-responsive visible-sm visible-xs" />
+                      </div>
+
+                      <div class="font-display">
+                        <img src="images/new/typography-styles@2x.png" alt="" class="img-responsive hidden-sm hidden-xs" />
+                        <img src="images/new/mobile/typography-styles-mobile@2x.png" alt="" class="img-responsive visible-sm visible-xs" />
+                      </div>
+
+                      <div class="font-display">
+                        <img src="images/new/typography-calibri@2x.png" alt="" class="img-responsive hidden-sm hidden-xs" />
+                        <img src="images/new/mobile/typeface-calibri-mobile@2x.png" alt="" class="img-responsive visible-sm visible-xs" />
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- .section-details -->
+              </div><!-- .section-content -->
+            </section>  
+
+             <!-- Section - Brand photography treatment -->
+            <section id="brand-photography-treatment" class="section">
+              <div class="section-header visible-sm visible-xs">
+                Brand photography treatment <span class="genericon genericon-expand"></span> 
+              </div>
+              
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12 hidden-sm hidden-xs">
+                    <div class="section-title">Brand photography treatment</div>
+                  </div>
+
+                  <div class="col-sm-8 col-xs-12">
+                    <div class="section-summary">
+                      <p>For branded photography applications, we use a specific gradient as well as SFDT Blue multiplied over black and white images.</p>
+                    </div>
+                  </div>
+                </div><!-- .row -->
+
+                <div class="section-details">
+                  <div class="row mar0">
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="title">Gradient</div>
+                      <div class="thumb">
+                        <img src="images/new/d-t-photography-gradient@2x.jpg" alt="" class="img-responsive" />
+                      </div>
+                      <div class="note">SFDT Blue to transparent gradient over a full color photo</div>
+                    </div>
+
+                    <div class="grid-col col-sm-6 col-xs-12">
+                      <div class="title">Color overlay</div>
+                      <div class="thumb">
+                        <img src="images/new/d-t-photography-color-overlay@2x.jpg" alt="" class="img-responsive" />
+                      </div>
+                      <div class="note">SFDT Blue multiplied over a black and white photo</div>
+                    </div>
+                  </div>
+                  
+                  <div class="download-template">
+                    Download template &nbsp;&nbsp;<br class="visible-xs"/><span><a href="SFDT-Brand-Photography-PSD.zip" target="_blank">Photoshop</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="SFDT-Brand-Photography-SKETCH.zip" target="_blank">Sketch</a>
+                  </div>
+                </div><!--.section-details -->
+              </div><!--.section-content -->
+            </section>  
+
+          </div>
+          
+        </div><!--  #content -->
+      </div><!--  #primary -->
+    </div><!-- .content-wrapper -->
+  
+  </main><!-- #main -->
+</div><!-- #page -->
+
+  <footer id="site-footer" role="contentinfo">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-md-4 col-sm-5 col-xs-12">
+          <a href="#" class="footer-logo"><img src="images/footer-logo.png" alt="" /></a>
+        </div>
+        
+        <div class="col-md-8 col-sm-7 col-xs-12">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="site-address">1 South Van Ness Ave, 2nd floor<br />San Francisco, CA, 94103<br />415.581.7100</div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="copyright">
+                <?php echo '&copy; '. DATE('Y') .' City and County of San Francisco<br />Department of Technology'; ?>
+              </div>
+                
+              <div class="site-by">Site by <a href="http://tomorrowpartners.com" target="_blank">Tomorrow Partners</a></div>
+              
+            </div>
+          </div><!-- .row -->
+        </div>
+      </div><!-- .row -->
+      
+    </div><!-- .xl-container -->
+  </footer><!-- .site-footer -->
+  
+  <script src="js/functions.js" type="text/javascript"></script>
+</body>
+</html>
